@@ -1,0 +1,41 @@
+.address{
+	height: 100%;
+	flex-grow: 1;
+	overflow: scroll;
+	background-color: gainsboro;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+.address-message{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+	border-bottom: 1px solid gray;
+	background-color: white;
+}
+.address-picture{
+	height: 50px;
+	width: 5%;
+	display: flex;
+	min-width: 80px;
+	align-items: center;
+	justify-content: center;
+}
+.address-picture img{
+	height: 40px;
+	width: 40px;
+}
+.m1{
+	height: 50px;
+	width: 95%;
+	display: flex;
+	flex-flow: column;
+}
+.address-name{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}

@@ -1,0 +1,231 @@
+.friend-nav{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	flex-flow: row;
+	background-color: #212121;
+	justify-content: space-between; /*字 空 字*/
+}
+.friend-content{
+	height: 100%;
+	flex-grow: 1;
+	overflow: scroll;
+	background-color: whitesmoke;
+}
+::-webkit-scrollbar{
+	display: none;
+}
+.friend-nav-picture{
+	display: flex;
+	width: 5%;
+	height: 40px;
+	align-items: center;
+	justify-content: center;	
+	
+}
+.friend-nav-picture img{
+	width: 25px;
+	height: 25px;
+}
+.friend-nav-text{
+	display: flex;
+	width: 10%;
+	height: 40px;
+	/*align-content: center;*/
+	justify-content: center;
+	line-height: 38px;
+	color: #DCDCDC;
+	font-size: 110%;
+	min-width: 100px;	
+}
+.friend-nav-picture-r{
+	display: flex;
+	width: 85%;
+	height: 40px;
+	align-items: center;
+	justify-content: flex-end;	
+}
+.friend-nav-picture-r img{
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+}
+.friend-bg{
+	display: flex;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	background: url(../img/friend/背景图.jpg) no-repeat;
+	background-size: cover;
+}
+.friend-bg-message{
+	display: flex;
+	width: 300px;
+	height: 100px;
+	flex-flow: row;
+	position: absolute;
+	bottom: -35px;right: 25px;
+}
+.friend-bg-message-text{
+	display: flex;
+	width: 50%;
+	height: 100px;
+	align-items: center;
+	justify-content: flex-end;
+	color: whitesmoke;
+	font-size: 120%;
+	padding-right: 10px;
+}
+.friend-bg-message-picture{
+	display: flex;
+	width: 50%;
+	height: 100px;
+	align-items: center;
+	justify-content: center;
+	
+}
+.friend-bg-message-picture img{
+	width: 95px;
+	height: 95px;
+	border: 2px solid whitesmoke;
+}
+.friend-more{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-flow: row;
+	border-bottom: 1px solid gainsboro;
+}
+.friend-more-picture{
+	width: 15%;
+	height: 400px;
+	display: flex;
+	justify-content: flex-end;
+	min-width: 80px;
+}
+.friend-more-picture img{
+	width: 60px;
+	height: 60px;
+	border: 10px solid whitesmoke;
+}
+.friend-more-r{
+	display: flex;
+	width: 85%;
+	height: auto;
+	flex-flow: column;
+}
+.name{
+	display: flex;
+	width: 100%;
+	height: 40px;
+	color: #0D47A1;
+	align-items: flex-end;
+}
+.neirong{
+	display: flex;
+	width: 100%;
+	height: auto;
+	min-height: 60px;
+	align-items: flex-start;
+}
+.tupian{
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: flex-start;
+	align-items: center;
+}
+.tupian img{
+	width: 200px;
+	height: 200px;
+}
+.sjhpl{
+	height: 30px;
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+}
+.shijian{
+	height: 30px;
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+.pinglun{
+	height: 30px;
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.pinglun img{
+	height: 20px;
+	width: 20px;
+	margin-right: 25px;
+}
+.zhpl{
+	height: auto;
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	margin-bottom: 10px;
+	margin-top: 7px;
+}
+.zan{
+	height: auto;
+	width: 90%;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	background-color: #BDBDBD;
+	border-bottom: 1px solid #616161;
+}
+.zan-tp{
+	display: flex;
+	height: 18px;
+	width: 20px;
+	background: url(../img/friend/赞.svg) no-repeat;
+	background-size: contain;
+	margin-left: 10px;
+}
+.zan-name{
+	height: auto;
+	width: auto;
+	display: flex;
+	color: #0D47A1;
+	margin-left: 10px;
+}
+.pinglun-text{
+	width: 90%;
+	display: flex;
+	flex-flow: column;
+	/*justify-content: flex-start;*/
+	text-indent: 10px;
+	background-color: #BDBDBD;
+	color: #212121;
+}
+.jian{
+	width: 10px;
+	height: 10px;
+	background-color: #BDBDBD;
+	position: relative;
+	left: 20px;top: -5px;
+	transform: rotate(45deg);
+}
+.kong{
+	height: 5px;
+	width: 90%;
+	display: flex;
+	flex-flow: row;
+	background-color: #BDBDBD;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+

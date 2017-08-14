@@ -1,0 +1,87 @@
+.me{
+	height: 100%;
+	flex-grow: 1;
+	overflow: scroll;
+	background-color: gainsboro;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+.me-message{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+	background-color: white;
+}
+.me-message01{
+	height: 100px;
+	width: 100%;
+	display: flex;
+	flex-flow: row;
+	background-color: white;
+	justify-content: center;
+}
+.me-picture{
+	height: 50px;
+	width: 5%;
+	display: flex;
+	min-width: 80px;
+	align-items: center;
+	justify-content: center;
+}
+.me-picture01{
+	height: 100px;
+	width: 10%;
+	display: flex;
+	min-width: 150px;
+	align-items: center;
+	justify-content: center;
+}
+.me-picture img{
+	height: 45px;
+	width: 45px;
+}
+.me-picture01 img{
+	height: 90px;
+	width: 90px;
+}
+.m1{
+	height: 50px;
+	width: 95%;
+	display: flex;
+	flex-flow: column;
+}
+.m2{
+	height: 95px;
+	width: 75%;
+	display: flex;
+	flex-flow: column;
+}
+.me-name{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.me-content{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.me-picture01-r{
+	height: 100px;
+	width: 15%;
+	display: flex;
+	min-width: 50px;
+	align-items: center;
+	justify-content: center;
+	margin-right: 5%;
+}
+.me-picture01-r img{
+	height: 45px;
+	width: 45px;
+}

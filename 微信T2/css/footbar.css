@@ -1,0 +1,61 @@
+.footbar{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	align-items: center; /*纵向居中*/
+	background-color: #616161;
+}
+.footbar-button1{
+	height: 38px;
+	width: 30px;
+	background: url(../img/footbar/聊天.svg) no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.footbar-button2{
+	height: 38px;
+	width: 30px;
+	background: url(../img/footbar/通讯录.svg) no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.footbar-button3{
+	height: 30px;
+	width: 30px;
+	background: url(../img/footbar/发现.svg) no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.footbar-button4{
+	height: 30px;
+	width: 30px;
+	background: url(../img/footbar/me.svg) no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.footbar-button1:hover{
+	background: url(../img/footbar/聊天-press.svg) no-repeat;
+	background-size:contain;
+	background-position: center;
+	
+}
+.footbar-button2:hover{
+	background: url(../img/footbar/通讯录-press.svg) no-repeat;
+	background-size:contain;
+	background-position: center;
+	
+}
+.footbar-button3:hover{
+	background: url(../img/footbar/发现-press.svg) no-repeat;
+	background-size:contain;
+	background-position: center;
+	
+}
+.footbar-button4:hover{
+	background: url(../img/footbar/me-press.svg) no-repeat;
+	background-size:contain;
+	background-position: center;
+	
+}
